@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#menu-horinzontal ul{
+    list-style: none;
+    background-color: #f67c92;
+    height: 50px;
+    float:right;
+    padding: 15px;
+}
+#menu-horinzontal ul li{
+    display: inline;
+}
+#menu-horinzontal ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+
+}
+#menu-horinzontal ul li a:hover{
+    background-color: beige;
+    color: cornflowerblue;
+    transition-duration: 3s;
+}
+#logo{
+    width: 100px;
+    margin-top: 30px;
+}
+header{
+    height: 100vh;
+    background-image: url(../imagens/fundo.png);
+    background-position: center;
+    background-size: cover;
+}
+#sobre{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
